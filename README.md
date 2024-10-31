@@ -1,4 +1,4 @@
-<p align="center">
+  <p align="center">
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
@@ -24,7 +24,9 @@ In this tutorial, we’ll configure Remote Desktop access for non-admin users, a
 - Log into Client-1 via Remote Desktop using the Domain Admin account (e.g., Jane_admin).
 <br/>
   
-![image](https://github.com/user-attachments/assets/19c110f9-fcb8-4a53-a215-d63da58de20a)
+![1stScreenshot-19c110f9-fcb8-4a53-a215-d63da58de20a](https://github.com/user-attachments/assets/85214ebc-8dc9-4d59-a177-add569534872)
+
+
 
 </p>
 
@@ -42,7 +44,8 @@ In this tutorial, we’ll configure Remote Desktop access for non-admin users, a
 <br/>
   
 
-![Screenshot 2024-10-04 141402](https://github.com/user-attachments/assets/380e3658-04fa-43c3-ab1d-69e031ef82b8)
+![2NDSCREENSHOT-380e3658-04fa-43c3-ab1d-69e031ef82b8](https://github.com/user-attachments/assets/14893c03-ea3b-414b-9872-a41bb8c0d918)
+
 
 </p>
 
@@ -90,7 +93,8 @@ In this tutorial, we’ll configure Remote Desktop access for non-admin users, a
 - Log back into Client-1 using the newly created user from the script. Make sure to specify the login context by adding "mydomain.com\" before entering the username
 <br/>
 
-![Screenshot 2024-10-04 143712](https://github.com/user-attachments/assets/b300e9a8-e9b2-456c-92d8-8be2dbf16a56)
+![3RDSCREENSHOT-b300e9a8-e9b2-456c-92d8-8be2dbf16a56](https://github.com/user-attachments/assets/52b9a443-1efc-4093-b01b-7169a4a275f5)
+
 
 <p/>
 
@@ -155,7 +159,8 @@ In this tutorial, we’ll configure Remote Desktop access for non-admin users, a
 - To update Group Policy immediately, log into Client-1 as an admin and run gpupdate /force in the command line.
 <br/>
 
-![Screenshot 2024-10-04 151643](https://github.com/user-attachments/assets/a059a3b3-5086-4e59-9cfa-95202c5f7fea)
+![4THSCREENSHOT-a059a3b3-5086-4e59-9cfa-95202c5f7fea](https://github.com/user-attachments/assets/1fbdfe9a-e59c-4b85-b1e2-297c3ff513ce)
+
 ![Screenshot 2024-10-04 152328](https://github.com/user-attachments/assets/58f43ed1-4be9-4dce-b9fa-7dce86d423ec)
 
 <br/>
@@ -163,7 +168,8 @@ In this tutorial, we’ll configure Remote Desktop access for non-admin users, a
 - Test the policy by logging into Client-1 with an incorrect password for the user more than 5 times. A lockout message should appear after the attempts.
 <br/>
 
-![Screenshot 2024-10-04 152821](https://github.com/user-attachments/assets/167cba41-9070-4a13-ae78-5671ce82e2f3)
+![5THSCREENSHOT-167cba41-9070-4a13-ae78-5671ce82e2f3](https://github.com/user-attachments/assets/473f666f-3cf4-4374-aa95-b0eb706ee334)
+
 
 <br/>
 
@@ -187,7 +193,8 @@ In this tutorial, we’ll configure Remote Desktop access for non-admin users, a
 - Now the user can log into Client-1 as normal
 <br/>
 
-![Screenshot 2024-10-04 145145](https://github.com/user-attachments/assets/ac1cb8a7-bd9d-4d3b-90ba-895d3befc8ed)
+![6THSCREENSHOT-ac1cb8a7-bd9d-4d3b-90ba-895d3befc8ed](https://github.com/user-attachments/assets/9ec926ca-c759-46d1-944d-26f007ddcc84)
+
 
 <br/>
 
@@ -205,7 +212,8 @@ In this tutorial, we’ll configure Remote Desktop access for non-admin users, a
 - Attempting to log into Client-1 with a disabled account will produce an error.
 <br/>
 
-![Screenshot 2024-10-04 154507](https://github.com/user-attachments/assets/35ac1513-7664-4365-94ae-7b8d1b7d6975)
+![7THSCREENSHOT-35ac1513-7664-4365-94ae-7b8d1b7d6975](https://github.com/user-attachments/assets/abb1b1c5-ad01-4c9c-bb46-04193d207d0e)
+
 
 <br/>
 
